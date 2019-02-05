@@ -16,15 +16,7 @@ import { Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap
 class App extends Component {
 
 
-  state = {
-    viewport: {
-
-      width: window.innerWidth,
-      height: window.innerHeight,
-
-    }
-  };
-
+  
   constructor(props) {
     super(props);
     this.toggle = this.toggle.bind(this);
